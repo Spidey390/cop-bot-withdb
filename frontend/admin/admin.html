@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Cop Bot</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <div class="admin-container">
+        <h2>Admin Panel - Complaints</h2>
+
+        <!-- Complaints List -->
+        <ul id="complaintList" class="complaint-list"></ul>
+
+        <!-- Add Complaint Form -->
+        <h3>Add Complaint</h3>
+        <form id="complaintForm" class="complaint-form">
+            <input type="text" id="userName" placeholder="User Name" required>
+            <textarea id="complaintText" placeholder="Enter complaint" required></textarea>
+            <button type="submit">Add Complaint</button>
+        </form>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
